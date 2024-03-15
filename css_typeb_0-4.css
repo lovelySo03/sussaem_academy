@@ -1,0 +1,198 @@
+body {
+    padding: 0;
+    margin: 70px 0;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .fixedbottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .end {
+    padding: 20px;
+    margin: 0;
+    background-color: olivedrab;
+    color: white;
+  }
+  
+  .bigtitle {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .subbigtitle {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f8f8f8;
+}
+
+.home a {
+    color: #8B4513; /* 갈색 */
+  }
+  
+  
+  
+  .subtitlebox {
+    text-align: center;
+    /* rgb(245, 222, 179); */
+    background-color: rgb(97, 70, 40);
+    padding: 20px;
+  }
+  
+  .subdescription {
+    color: #f8f8f8;
+  }
+  
+  .article {
+    margin: 40px;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 30px 0px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .subtitle { 
+    font-size: 18px;
+    font-weight: bold;
+    color: #454545;
+  }
+  
+  .description {
+    padding: 15px;
+    background-color: rgba(255, 213, 127, .3);
+  }
+  
+  .flexbox {
+    display: flex;
+    background-color:#f9f9f9;
+    align-items: center;
+    height: 70px;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 10px 20px;
+  }
+  
+  .home {
+    margin: 0;
+    width: 100px;
+    height: 70px;
+    background-color: rgb(245, 222, 179);
+    text-align: center;
+    line-height: 70px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .main {
+    color: white;
+  }
+  
+  /* 스타일 추가
+  .optional {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #f9f9f9;
+    padding: 5px 10px;
+    cursor: pointer;
+  } */
+  
+  .optional {
+    position: absolute;
+    top: 10px;
+    right: 110px; /* Contact 버튼과 동일한 위치 */
+    width: 100px; /* Contact 버튼과 동일한 너비 */
+    text-align: center; /* 가운데 정렬 */
+    border: 1px solid #f9f9f9;
+    padding: 5px 0; /* 위아래로만 패딩 적용 */
+    cursor: pointer;
+    font-family: inherit; /* 부모 요소에서 상속한 글꼴 사용 */
+    font-size: 25px; /* Contact 버튼과 동일한 글자 크기 */
+  }
+  
+  
+  /* 하위 메뉴 스타일 */
+  .optional-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* 하위 메뉴 링크 스타일 */
+  .optional-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* 하위 메뉴 링크 호버 스타일 */
+  .optional-menu a:hover {
+    background-color:#f9f9f9;
+  }
+  
+
+  .grid-container.horizontal {
+    display: flex;
+    flex-wrap: nowrap; /* 줄 바꿈 방지 */
+    overflow-x: auto; /* 가로 스크롤 활성화 */
+  }
+  
+  .optional select {
+    border: 1px solid #f9f9f9;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px; /* 예쁘게 꾸미기 */
+    border-radius: 5px; /* 예쁘게 꾸미기 */
+  }
+  
+  .optional select:focus {
+    outline: none;
+    border-color: #007bff; /* 포커스시 파란색 테두리 */
+  }
+  
+  .description {
+    max-width: 400px; /* 원하는 최대 너비 설정 */
+    margin: 0 auto; /* 가운데 정렬을 위해 추가 */
+  }
